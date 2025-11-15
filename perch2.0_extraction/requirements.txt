@@ -1,0 +1,23 @@
+# ================================
+# requirements.txt — Perch 2.0 Extractor
+# ================================
+
+# --- Core numerical library ---
+numpy
+
+# --- Audio I/O + processing ---
+soundfile
+librosa
+
+# --- Perch 2.0 model + HF hub ---
+huggingface-hub
+
+# --- TensorFlow / Keras stack ---
+# NOTE: choose a GPU-enabled TensorFlow build appropriate for your system.
+tensorflow
+keras
+
+# --- System dependency (not via pip) ---
+# ffmpeg must be installed at OS level, e.g.:
+#   sudo apt install ffmpeg
+#   brew install ffmpeg

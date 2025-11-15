@@ -1,0 +1,24 @@
+# ================================
+# requirements.txt — Encodec Extractor
+# ================================
+
+# --- Core numerical libraries ---
+numpy
+scipy
+
+# --- PyTorch + audio ---
+# (Install a GPU-specific PyTorch build manually if needed)
+torch
+torchaudio
+
+# --- HuggingFace EnCodec + Transformers ---
+transformers
+huggingface-hub
+
+# --- Audio I/O ---
+soundfile
+librosa
+
+# --- (Optional but recommended for safety) ---
+# ffmpeg must be installed system-wide, not via pip:
+# sudo apt install ffmpeg   OR   brew install ffmpeg
