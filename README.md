@@ -1,4 +1,4 @@
-# 📁 Repository Structure – MasterThesis-NeuralAudioCodecs
+# 📁 Repository Structure – NeuralAudioCodecs
 
 This document briefly describes the purpose and contents of each main directory in the repository.
 
@@ -32,9 +32,7 @@ Useful for **semantic embeddings** derived from Perch 2.0.
 ### ⚠️ Note on Xeno-Canto–based Datasets
 
 Perch 2.0 was partially trained on large-scale bird audio collections that include curated subsets derived from Xeno-Canto.
-For this reason, results obtained using datasets sourced from Xeno-Canto should be interpreted with caution, as the pretrained model may implicitly benefit from prior exposure to similar material.
-
-This does not invalidate the extraction pipeline, but it means that performance on Xeno-Canto–like datasets may not fully reflect out-of-distribution generalization.
+For this reason, results obtained using datasets sourced from Xeno-Canto should be interpreted with caution, as the pretrained model may implicitly benefit from prior exposure to similar material. This does not invalidate the extraction pipeline, but it means that performance on Xeno-Canto–like datasets may not fully reflect out-of-distribution generalization.
 ---
 
 ## 📂 trioctvq
