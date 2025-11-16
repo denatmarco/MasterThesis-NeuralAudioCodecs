@@ -1,4 +1,3 @@
-```markdown
 # 📘 Third-Octave VQ Encoder – Unified Command Line Interface
 
 This repository provides two command-line tools for working with the **Third-Octave Vector-Quantized Encoder**:
@@ -293,4 +292,3 @@ z = np.loadtxt("path/to/fragment.txt")
 - Increase `--batch` for speed (SSD recommended).  
 - Do not mix datasets in the same output folder.  
 - Audio is automatically resampled to match encoder requirements.
-```
