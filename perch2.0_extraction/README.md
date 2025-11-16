@@ -153,6 +153,7 @@ Each fragment is saved as a `.txt` file (CSV floats) with naming scheme:
 - Perch 2.0 requires **GPU acceleration**  
 - All embeddings have fixed size: **1536**  
 - Reflection padding stabilizes short trailing segments
+- Perch 2.0 was partially trained on large-scale bird audio collections that include curated subsets derived from Xeno-Canto. For this reason, results obtained using datasets sourced from Xeno-Canto should be interpreted with caution, as the pretrained model may implicitly benefit from prior exposure to similar material. This does not invalidate the extraction pipeline, but it means that performance on Xeno-Canto–like datasets may not fully reflect out-of-distribution generalization.
 
 ---
 
